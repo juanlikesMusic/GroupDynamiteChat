@@ -50,8 +50,9 @@
     </button>
     <h1>🔥🧨DINAMITA MESSENGER🧨🔥</h1>
   </header>
+  <p>
   <figure><img id=avatar src="" alt=Avatar></figure>
-  <p><b><output id=email></output></b><br><output id=nombre></output></p>
+  <b><output id=email></output></b><br><output id=nombre></output></p>
   <form action="javascript:agrega();">
     <input id="texto" type="text" required placeholder="Mensaje">
     <button>ENVIAR</button>
@@ -140,7 +141,7 @@
                  * para evitar inyección de código. */
                 inner += /* html */
                   `<li>
-                      <b>${cod(data.USUARIO)}</b><br>${cod(data.TEXTO)}
+                    <b>${cod(data.USUARIO)}</b><br>${cod(data.TEXTO)}
                     </li>`;
               });
               mensajes.innerHTML = inner;

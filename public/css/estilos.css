@@ -8,3 +8,14 @@ figure img{
     width: 40px;
     float: left;
 }
+*{
+    color:#DFDFDF;
+}
+
+button{
+    color:black;
+}
+
+p{
+    align-content:center;
+}
